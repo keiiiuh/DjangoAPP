@@ -1,4 +1,4 @@
-python -m pip install asgiref==3.4.1
-python -m pip install Django==3.2.5
-python -m pip install pytz==2021.1
-python -m pip install sqlparse==0.4.1
+Django
+asgiref==3.4.1
+pytz==2021.1
+sqlparse==0.4.1
