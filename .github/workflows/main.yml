@@ -2,7 +2,7 @@
 
 name: CICD-pipeline-to-AWS
 env:
-  EB_PACKAGE_S3_BUCKET_NAME : "django-app-bucket-cicd"
+  EB_PACKAGE_S3_BUCKET_NAME : "elasticbeanstalk-us-east-1-852350297175"
   EB_APPLICATION_NAME       : "Django-cicd"
   EB_ENVIRONMENT_STAGE      : "Djangocicd-env"
   DEPLOY_PACKAGE_NAME       : "django_app_${{ github.sha }}.zip"
