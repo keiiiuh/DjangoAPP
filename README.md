@@ -1,0 +1,2 @@
+# DjangoAPP
+cicd
