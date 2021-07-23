@@ -76,12 +76,16 @@ WSGI_APPLICATION = 'DjangoAPP.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+<<<<<<< HEAD
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+=======
+
+>>>>>>> 7ab25bb503287b721f7020dac204bb98fa51b88e
 
 
 # Password validation
