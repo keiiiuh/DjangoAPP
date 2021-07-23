@@ -2,17 +2,17 @@
 
 name: CICD-pipeline-to-AWS
 env:
-  EB_PACKAGE_S3_BUCKET_NAME : "elasticbeanstalk-us-east-1-852350297175"
-  EB_APPLICATION_NAME       : "Django-cicd"
-  EB_ENVIRONMENT_STAGE      : "Djangocicd-env"
-  DEPLOY_PACKAGE_NAME       : "django_app_${{ github.sha }}.zip"
-  AWS_REGION_NAME           : "us-east-1"
+  EB_PACKAGE_S3_BUCKET_NAME : "elasticbeanstalk-eu-north-1-852350297175"
+  EB_APPLICATION_NAME       : "Djangof"
+  EB_ENVIRONMENT_STAGE      : "Djangof-env"
+  DEPLOY_PACKAGE_NAME       : "Djangof_${{ github.sha }}.zip"
+  AWS_REGION_NAME           : "eu-north-1"
   
 
 
 
 on:
-  #push:
+  push:
     branches:
       - main
     
